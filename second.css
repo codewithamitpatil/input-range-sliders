@@ -1,0 +1,78 @@
+.slider1 {
+    position: relative;
+    width: 400px;
+    /* background: whitesmoke; */
+}
+
+.secondExample {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rangeSlider1 {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    outline: none;
+
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.rangeSlider1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #4d4dff;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.rangeSlider1::-webkit-slider-thumb:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.rangeSlider2 {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    outline: none;
+
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.rangeSlider2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #4d4dff;
+    border-radius: 10%;
+    border: 5px solid white;
+}
+
+.rangeSlider2::-webkit-slider-thumb:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.label-left1 {
+    color: #47525ddb;
+    color: white;
+    font-size: 22px;
+}
+
+.label-right1 {
+    color: #47525ddb;
+    color: white;
+    float: right;
+    font-size: 22px;
+}

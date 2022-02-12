@@ -1,0 +1,53 @@
+.example1st {
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    position: relative;
+    width: 400px;
+
+    /* background: whitesmoke; */
+}
+
+body {
+    /* background: black; */
+}
+
+.rangeSlider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    outline: none;
+
+    background: #ddd;
+    background: linear-gradient(90deg,
+            #4d4dff 50%,
+            #ddd 0%);
+    border-radius: 5px;
+}
+
+.rangeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #4d4dff;
+    border-radius: 50%;
+}
+
+.rangeSlider::-webkit-slider-thumb:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.label-left {
+    color: #47525ddb;
+    font-size: 22px;
+}
+
+.label-right {
+    color: #47525ddb;
+    float: right;
+    font-size: 22px;
+}
